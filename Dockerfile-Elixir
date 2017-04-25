@@ -2,7 +2,7 @@ FROM pharosproduction/erlang:latest
 
 MAINTAINER Dmytro Nasyrov <dmytro@pharosproduction.com>
 
-ENV REFRESHED_AT=2017-04-16 \
+ENV REFRESHED_AT=2017-04-25 \
   TERM=xterm
 
 WORKDIR /tmp/elixir-build
