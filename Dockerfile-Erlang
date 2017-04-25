@@ -1,4 +1,4 @@
-FROM pharosproduction/aws
+FROM pharosproduction/nodejs
 
 MAINTAINER Pharos Production Inc. <dmytro@pharosproduction.com>
 
@@ -50,7 +50,8 @@ RUN mkdir -p ${HOME} \
       --enable-shared-zlib \
       --enable-ssl=dynamic-ssl-lib \
       --enable-hipe \
-  && make -j4 && make install \
+  && make -j4 \
+  && make install \
   && apk del --force .erlang-build \
   && cd $HOME \
   && rm -rf /tmp/erlang-build \
