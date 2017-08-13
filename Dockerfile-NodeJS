@@ -2,12 +2,10 @@ FROM pharosproduction/aws
 
 MAINTAINER Dmytro Nasyrov <dmytro@pharosproduction.com>
 
-# prev node version 7.9.0
-# prev npm version 4
-ENV REFRESHED_AT=2017-08-13 \
+ENV REFRESHED_AT=2017-08-13-1 \
 	TERM=xterm \
-	VERSION=v8.3.0 \
-	NPM_VERSION=5 \
+	VERSION=v7.9.0 \
+	NPM_VERSION=4 \
     CONFIG_FLAGS=--fully-static \
     DEL_PKGS=libstdc++ \
     RM_DIRS=/usr/include
