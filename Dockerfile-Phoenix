@@ -2,7 +2,7 @@ FROM pharosproduction/elixir:latest
 
 MAINTAINER Dmytro Nasyrov <dmytro@pharosproduction.com>
 
-ENV REFRESHED_AT=2017-08-13 \
+ENV REFRESHED_AT=2017-08-13-1 \
     TERM=xterm
 
 RUN mkdir -p /opt/app \

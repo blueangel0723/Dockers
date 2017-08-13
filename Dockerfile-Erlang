@@ -2,7 +2,7 @@ FROM pharosproduction/nodejs
 
 MAINTAINER Pharos Production Inc. <dmytro@pharosproduction.com>
 
-ENV REFRESHED_AT=2017-08-13 \
+ENV REFRESHED_AT=2017-08-13-1 \
   LANG=en_US.UTF-8 \
   HOME=/opt/app/ \
   TERM=xterm \
