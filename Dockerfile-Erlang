@@ -1,8 +1,8 @@
-FROM pharosproduction/nodejs
+FROM pharosproduction/aws:latest
 
 MAINTAINER Pharos Production Inc. <dmytro@pharosproduction.com>
 
-ENV REFRESHED_AT=2017-08-13-1 \
+ENV REFRESHED_AT=2017-08-13-3 \
   LANG=en_US.UTF-8 \
   HOME=/opt/app/ \
   TERM=xterm \
