@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 MAINTAINER Dmytro Nasyrov <dmytro@pharosproduction.com>
 
-ENV REFRESHED_AT=2017-04-16 \
+ENV REFRESHED_AT=2017-08-13 \
 	TERM=xterm
 
 RUN apk --no-cache update \
